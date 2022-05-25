@@ -10,26 +10,27 @@
                 color: rgb(175, 175, 255);
             }
             body {
-                background-color: rgba(0, 0, 0, 0.93);
+                height: 100%;
+                background-attachment: fixed;
+                background-image: linear-gradient(#FFFFFF, rgb(62, 181, 255));
                 color: rgb(255, 255, 255);
                 font-family: Times New Roman, Times, serif;
                 margin: 0;
-                padding: 0;
             }
-            button {
+            form {
                 color: white;
                 background-color: rgba(125, 125, 255, 1);
                 border: none;
             }
             header {
                 background: rgb(25, 25, 25);
-                padding: 10px 20px 20px 30px;
+                margin: 10px 20px 20px 30px;
                 text-align: center;
             }
             section2 {
                 text-align: center;
                 background: rgb(25, 25, 25);
-                padding: 20px;
+                margin: 20px;
                 display: flex;
                 flex-direction: row;
             }
@@ -71,8 +72,17 @@
         <section2>
             There are some of my Links:<br/>
             <div>
-                <button>Discord</button> 
-                <button>Spotify</button>
+
+                <form action="https://google.com">
+                    <input type="submit" value="Google" />
+                </form>
+
+                <form action="https://open.spotify.com/user/ricardo-304?si=8c2e25619e744c85">
+                    <input type="submit" value="Spotify" />
+                </form>
+
+                <button class="btn" type="submit">Submit</button>
+            
             </div>
         </section2>
         
