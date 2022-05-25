@@ -1,52 +1,22 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <style>
-            h1 {
-                color: rgb(125, 125, 255);
-            }
-            h3 {
-                color: rgb(135, 135, 255);
-            }
-            header {
-                width: 300px; /* Header Width */
-                padding: 5px; /* Spacing between Box and Text */
-                border: 3px solid black; /* Edge Thickness */
-                margin: 20px; /* Spacing between the Box and the edge of the Page */
-                text-align: center;
-            }
-            body {
-                background-attachment: fixed;
-                background-image: linear-gradient(#FFFFFF, rgb(62, 181, 255));
-                color: rgb(0, 0, 0);
-                font-family: Times New Roman, Times, serif;
-            }
-        
-            section2 {
-                padding: 5px; /* Spacing between Box and Text */
-                border: 3px solid black;
-                margin: 20px; /* Spacing between the Box and the edge of the Page */
-                display: inline-flex;
-                text-align: center;
-            }
-            section {
-                padding: 5px; /* Spacing between Box and Text */
-                border: 3px solid black;
-                margin: 20px; /* Spacing between the Box and the edge of the Page */
-            }
-        </style>
 
-        <title>My Page</title>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <title>My Page</title>
+</head>
 
-    </head>
-    <body>
-        <header>
-        <h1>Hello World :)</h1>
-        <h3>This is a experimental thing</h3>
-        </header>
+<body>
+    <center>
+        <div class="cabeçalho">
 
-        <section>
-        <p>Hello, i am a computer science student and i know some basics of other languages:<br/></p>
+            <h1>Hello World :)</h1>
+            <h3>This is a experimental thing</h3>
+        </div>
+    </center>
+
+    <div class="text">
+        <p>Hello, i am a computer science student and i know some basics of other languages:<br /></p>
         <ul>
             <li>C</li>
             <li>C#</li>
@@ -56,14 +26,15 @@
             <li>Scripts</li>
         </ul>
 
-        Well, i waked up this morning and think that i could learn <em><strong>html</strong></em> alone only with videos.<br/>
-            And see, its going pretty well, i think.<br/>
+        Well, i waked up this morning and think that i could learn <em><strong>html</strong></em> alone only with
+        videos.<br />
+        And see, its going pretty well, i think.<br />
         But lets continue it...
-        </section>
-
-        <section2>
-            <div>
-                There are some of my Links:<br/>
+    </div>
+    <center>
+        <div class="socials">
+            <div class="socials_box">
+                There are some of my Links:<br />
 
                 <form action="https://discord.gg/2QUSgaXtuh">
                     <input type="submit" value="Discord Server" />
@@ -75,8 +46,10 @@
                 <form action="https://open.spotify.com/user/ricardo-304?si=8c2e25619e744c85">
                     <input type="submit" value="Spotify" />
                 </form>
-            </div>     
-        </section2>
-        
-    </body>
+            </div>
+    </center>
+    </div>
+
+</body>
+
 </html>

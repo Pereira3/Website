@@ -1,0 +1,44 @@
+h1{
+    color: rgb(125, 125, 255);
+}
+
+h3{
+    color: rgb(135, 135, 255);
+}
+
+body{
+    background-attachment: fixed;
+    background-image: linear-gradient(#FFFFFF, rgb(114, 131, 255));
+    color: rgb(0, 0, 0);
+    font-family: Times New Roman, Times, serif;
+}
+
+.cabeçalho{
+    width: 300px; /* Header Width */
+    padding: 5px; /* Spacing between Box and Text */
+    border: 3px solid black; /* Edge Thickness */
+    margin: 20px; /* Spacing between the Box and the edge of the Page */
+    text-align: center;
+}
+
+.social_box{
+    align-items: center;
+}
+
+.socials{
+    padding: 5px;
+    /* Spacing between Box and Text */
+    border: 3px solid black;
+    margin: 20px;
+    /* Spacing between the Box and the edge of the Page */
+    display: inline-flex;
+    text-align: center;
+}
+
+.text{
+    padding: 5px;
+    /* Spacing between Box and Text */
+    border: 3px solid black;
+    margin: 20px;
+    /* Spacing between the Box and the edge of the Page */
+}
