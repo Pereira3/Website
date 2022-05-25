@@ -1,46 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
         <style>
             h1 {
                 color: rgb(125, 125, 255);
             }
             h3 {
-                color: rgb(175, 175, 255);
-            }
-            body {
-                height: 100%;
-                background-attachment: fixed;
-                background-image: linear-gradient(#FFFFFF, rgb(62, 181, 255));
-                color: rgb(255, 255, 255);
-                font-family: Times New Roman, Times, serif;
-                margin: 0;
-            }
-            form {
-                color: white;
-                background-color: rgba(125, 125, 255, 1);
-                border: none;
+                color: rgb(135, 135, 255);
             }
             header {
-                background: rgb(25, 25, 25);
-                margin: 10px 20px 20px 30px;
+                width: 300px; /* Header Width */
+                padding: 5px; /* Spacing between Box and Text */
+                border: 3px solid black; /* Edge Thickness */
+                margin: 20px; /* Spacing between the Box and the edge of the Page */
                 text-align: center;
             }
+            body {
+                background-attachment: fixed;
+                background-image: linear-gradient(#FFFFFF, rgb(62, 181, 255));
+                color: rgb(0, 0, 0);
+                font-family: Times New Roman, Times, serif;
+            }
+        
             section2 {
+                padding: 5px; /* Spacing between Box and Text */
+                border: 3px solid black;
+                margin: 20px; /* Spacing between the Box and the edge of the Page */
+                display: inline-flex;
                 text-align: center;
-                background: rgb(25, 25, 25);
-                margin: 20px;
-                display: flex;
-                flex-direction: row;
             }
             section {
-                background: rgb(25, 25, 25);
-                margin: 20px;
-            }
-            div {
-                display: inline;
-                margin: auto;
+                padding: 5px; /* Spacing between Box and Text */
+                border: 3px solid black;
+                margin: 20px; /* Spacing between the Box and the edge of the Page */
             }
         </style>
 
@@ -70,20 +62,20 @@
         </section>
 
         <section2>
-            There are some of my Links:<br/>
             <div>
+                There are some of my Links:<br/>
 
-                <form action="https://google.com">
-                    <input type="submit" value="Google" />
+                <form action="https://discord.gg/2QUSgaXtuh">
+                    <input type="submit" value="Discord Server" />
                 </form>
+
+                <div class="space">
+                </div>
 
                 <form action="https://open.spotify.com/user/ricardo-304?si=8c2e25619e744c85">
                     <input type="submit" value="Spotify" />
                 </form>
-
-                <button class="btn" type="submit">Submit</button>
-            
-            </div>
+            </div>     
         </section2>
         
     </body>
