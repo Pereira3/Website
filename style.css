@@ -7,9 +7,13 @@ h3{
 }
 
 body{
+    background-image: url('https://cdn.wallpapersafari.com/76/67/HsdRS0.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(#FFFFFF, rgb(114, 131, 255));
-    color: rgb(0, 0, 0);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-image: linear-gradient(#e6d1ff, rgb(95, 95, 255)); */
+    color: rgb(255, 255, 255);
     font-family: Times New Roman, Times, serif;
 }
 
@@ -36,9 +40,31 @@ body{
 }
 
 .text{
-    padding: 5px;
-    /* Spacing between Box and Text */
+    padding: 20px; /* Spacing between Box and Text */
     border: 3px solid black;
-    margin: 20px;
-    /* Spacing between the Box and the edge of the Page */
+    margin: 20px; /* Spacing between the Box and the edge of the Page */
+    padding-top: 0.15cm;
+}
+
+.vspace{
+    height: 10px; /* Spacing between buttons veticaly */
+}
+.hspace{
+    margin-right: 15px; /* Spacing between buttons horizontally */
+    display: inline;
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgb(125, 125, 255);
+}
+.button:hover{
+    background-color: rgb(135, 135, 255);
+    transition: 0.2s;
+}
+.button:active{
+    background-color: aliceblue;
 }
