@@ -1,12 +1,6 @@
-h1{
-    color: rgb(125, 125, 255);
-}
-
-h3{
-    color: rgb(135, 135, 255);
-}
-
 body{
+    width: 1475px;
+    height: 738px;
     background-image: url('https://cdn.wallpapersafari.com/76/67/HsdRS0.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,29 +12,37 @@ body{
 }
 
 .cabeçalho{
-    width: 300px; /* Header Width */
-    padding: 5px; /* Spacing between Box and Text */
-    border: 3px solid black; /* Edge Thickness */
-    margin: 20px; /* Spacing between the Box and the edge of the Page */
-    text-align: center;
+    color: rgb(125, 125, 255);
+    font-size: 65px;
+    height: 75px;
+    width: 377px; /* Header Width */
+    padding: 40px; /* Spacing between Box and Text */
+    /* border: 0px solid black;  /  Edge Thickness */
+    /* margin: 30px;  /  Spacing between the Box and the edge of the Page */
+    text-align: left;
 }
 
 .socials{
     padding: 5px;
     /* Spacing between Box and Text */
     border: 3px solid black;
-    margin: 20px;
     /* Spacing between the Box and the edge of the Page */
     display: inline-flex;
     text-align: center;
 }
 
 .text{
-    padding: 20px; /* Spacing between Box and Text */
-    border: 3px solid black;
-    margin: 20px; /* Spacing between the Box and the edge of the Page */
-    padding-top: 0.15cm;
+    padding: 50px; /* Spacing between Box and Text */
+    border: 3px solid rgb(125, 125, 255);
+    border-radius: 30px;
+    width: 857px; /* To fit the width of text to the box */
+    margin-left: 256px;
+    margin-right: 256px;
+    margin-top: 61.2px;
+    margin-bottom: 216.2px;
+    font-size: large;
 }
+
 
 .vspace{
     height: 10px; /* Spacing between buttons veticaly */
